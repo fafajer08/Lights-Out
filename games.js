@@ -23,6 +23,13 @@ $(".btn").click(function() {
   checkAnswer(userClickedPattern.length-1);
 });
 
+$(document).on("click touchstart", function() {
+  if (!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+});
 
 function checkAnswer(currentLevel) {
 
