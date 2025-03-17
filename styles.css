@@ -20,10 +20,11 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 21vh;
+  width: 15vw;
   border: 10px solid black;
-  border-radius: 20%;
+  border-radius: 15%;
+  margin: 10px;
 }
 
 .game-over {
@@ -51,4 +52,12 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.button-container {
+  display: grid;
+  grid-gap: 10px; 
+  justify-content: center; 
+}
+
+
 
