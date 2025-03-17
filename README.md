@@ -16,19 +16,10 @@ The **Light-Out Game** is a modern twist on the classic **Simon Game Challenge**
 
 ### 🛠️ Tech Stack:
 - HTML5, CSS3  
-- JavaScript (React.js)  
-- Node.js (Backend API for storing scores)  
+- JavaScript  
 
 ### 📂 How to Run the Project:
 ```bash
-# Clone the repository
 git clone https://github.com/fafajer08/Lights-Out.git
 
-# Navigate to the project folder
-cd Lights-Out
 
-# Install dependencies
-npm install
-
-# Run the app
-npm start
